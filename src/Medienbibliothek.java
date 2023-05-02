@@ -15,6 +15,7 @@ public class Medienbibliothek {
     {
         for (Medium m : medienliste)
         {
+            System.out.println("-----------------------------------");
             m.anzeigen(); //polymorpher Methodenaufruf
         }
     }
