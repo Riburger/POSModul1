@@ -14,6 +14,11 @@ public class app{
         bib.mediumHinzufügen(herr);
 
         bib.alleMedienAusgeben();
-
+        System.out.println("");
+        System.out.println("Alle VHS in der Liste");
+        for (VHS vhs : bib.alleVHSalsListe())
+        {
+            vhs.anzeigen();
+        }
     }
 }

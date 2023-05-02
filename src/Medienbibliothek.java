@@ -19,4 +19,17 @@ public class Medienbibliothek {
             m.anzeigen(); //polymorpher Methodenaufruf
         }
     }
+
+    public ArrayList<VHS> alleVHSalsListe()
+    {
+      ArrayList<VHS> vhs = new ArrayList<>();
+      for (Medium aktuellesMedium : medienliste){
+          if (aktuellesMedium instanceof VHS){
+              vhs.add((VHS)aktuellesMedium);
+          }
+
+
+
+       }
+        return vhs;}
 }
