@@ -1,10 +1,10 @@
-public class vhs extends Medium {
+public class VHS extends Medium {
 
     private int spieldauer;
 
     private String qualität;
 
-    public vhs(String titel, double wert, String standort, int spieldauer, String qualität) {
+    public VHS(String titel, double wert, String standort, int spieldauer, String qualität) {
         super(titel, wert, standort);
         this.spieldauer = spieldauer;
         this.qualität = qualität;
